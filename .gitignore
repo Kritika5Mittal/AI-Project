@@ -1,2 +1,21 @@
+@'
 .env
 .env.*
+!.env.example
+
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+node_modules/
+**/node_modules/
+
+roll-alpha-frontend-backup/
+rollalpha-backend-backup/
+'@ | Set-Content -Path .gitignore
+
